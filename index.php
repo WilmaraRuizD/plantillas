@@ -19,6 +19,8 @@
     <div class="menu">
       <div class="contenedor">
         <p class="logo">Elaborado Wilmara Ruiz</p>
+
+        <img class="menu-icon" src="imagenes/menu.png" alt="">
         <nav>
           <ul>
             <li><a href="#sobre-mi">Sobre mi</a></li>
@@ -64,38 +66,38 @@
           <div class="contenedor-servicios">
             <div class="servicio violeta"
               <h4>Diseño Wed</h4>
-              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa (salvo casos como lo mencionado líneas abajo) en aquellos que vengan precedidos por alguna de las conjunciones </p>
-              <img class="icono1" src="imagenes/telefono.jpg">
+              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras,) </p>
+              <img class="icono1" src="imagenes/monitor.png">
               <img class="ondas" src="imagenes/images1.png">
             </div>
             <div class="servicio azul"
               <h4>Diseño otro</h4>
-              <p>El punto (.) es el signo de puntuación que se coloca al final de los enunciados y las oraciones gramaticales en español, además en la mayoría de los lenguajes escritos con el alfabeto latino, se escriben sin dejar espacio de separación con el carácter que precede, pero dejando un espacio con el carácter que sigue a continuación, a no ser que dicho carácter sea de cierre.</p>
-              <img class="icono1" src="imagenes/face.png">
+              <p>El punto (.) es el signo de puntuación que se coloca al final de los enunciados y las oraciones gramaticales en español, además en la mayoría de los lenguajes escritos con el alfabeto latino, se escriben sin dejar espacio de separación con el carácter que precede.</p>
+              <img class="icono1" src="imagenes/mobile.png">
               <img class="ondas" src="imagenes/images1.png">-
             </div>
             <div class="servicio violeta"
               <h4>Datos digitales</h4>
-              <p>Separa enunciados dentro de un párrafo. Quiere decir que se continúa escribiendo a continuación del punto; la primera letra escrita en este caso irá en mayúscula. Por ejemplo: «Historia de España. El descubrimiento de América». Se denomina punto y seguido, nombre más lógico y recomendable que el también usual de punto seguido.</p>
-              <img class="icono1" src="imagenes/iconocomp.jpg">
+              <p>Separa enunciados dentro de un párrafo. Quiere decir que se continúa escribiendo a continuación del punto; la primera letra escrita en este caso irá en mayúscula. Por ejemplo: «Historia de España. El descubrimiento de América». Se denomina punto y seguido.</p>
+              <img class="icono1" src="imagenes/seo.png">
               <img class="ondas" src="imagenes/images1.png">
             </div>
             <div class="servicio azul"
               <h4>analisis tester</h4>
-              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa (salvo casos como lo mencionado líneas abajo) en aquellos que vengan precedidos por alguna de la.</p>
-              <img class="icono1" src="imagenes/mail.jpg">
+              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa .</p>
+              <img class="icono1" src="imagenes/wordpress.png">
             <img class="ondas" src="imagenes/images1.png">
             </div>
             <div class="servicio violeta"
               <h4>control de calidad</h4>
-              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa (salvo casos como lo mencionado líneas abajo).</p>
-              <img class="icono1" src="imagenes/whats.jpg">
+              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa.</p>
+              <img class="icono1" src="imagenes/mante.png">
               <img class="ondas" src="imagenes/images1.png">
             </div>
             <div class="servicio azul"
               <h4>Descarga multimedia</h4>
-              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa (salvo casos como lo mencionado líneas abajo) en aquellos que vengan precedidos .</p>
-              <img class="icono1" src ="imagenes/inst.jpg">
+              <p>La coma (,) es un signo de puntuación que representa una pausa más breve que la del punto y se utiliza con frecuencia en toda clase de textos. Se emplea para separar los miembros de una enumeración o sucesión, ya sean palabras, frases y generalmente no se usa .</p>
+              <img class="icono1" src ="imagenes/marketing.png">
               <img class="ondas" src="imagenes/images1.png">
             </div>
           </div>
@@ -126,7 +128,7 @@
         <div class="contenedor-trabajar">
           <div class="item">
             <ul>
-              <li><img src="imagenes/velocidad.png"alt=""></li>
+              <li><img src="imagenes/monitor.png"alt=""></li>
               <li>Velocidad</li>
               <li>Este signo de puntuación (:) representa una pausa mayor que la de la coma y menor que la del punto. Detiene el discurso para llamar la atención sobre lo que sigue, que siempre está en estrecha relación con el texto precedente.</li>
             </ul>

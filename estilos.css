@@ -32,11 +32,13 @@ header{background:
   url(imagenes/fondo.jpg);
 height:100vh;
 background-size: cover;
+margin: 0;
 }
 #contenedor-titulo-flex{
   display: flex;
 justify-content: center;
 margin: 18vh 0;
+width: 100%;
 }
 h1{
   font-size: 60px;
@@ -78,6 +80,7 @@ font-weight: normal;}
 #sobre-mi .contenedor-sobremi{
   display: flex;
   justify-content: space-around;
+
 }
 #sobre-mi .texto{
   width: 42%;
@@ -88,6 +91,7 @@ font-weight: normal;}
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: #fff;
 }
 .servicio{
   width: 24%;
@@ -115,7 +119,8 @@ linear-gradient(to top, #40a8f9,#5cb8ff);
 box-shadow: 0 12px 30px 0 rgba(86,163,222,.3);
 }
 .icono1{
-  width: 20%;
+
+  margin-top: 80px;
   float: right;
 }
  .ondas{
@@ -129,7 +134,14 @@ box-shadow: 0 12px 30px 0 rgba(86,163,222,.3);
 
   span {
     color: #6ebefb;
+
 }
+
+#mis-trabajos p {
+  text-align: center;
+color: #000;
+}
+
 .imagcar{
 max-width: 200px;
 max-height: 150px;
@@ -165,7 +177,7 @@ list-style: none;
 /* seccion blog*/
 #blog{
   background: #F9FAFC;
-  box-shadow: 1px 1px 14px #ccc;
+
 }
 
 #blog .contenedor-publicaciones{
@@ -293,9 +305,119 @@ html{
 }
 #mis-trabajos,#sobre-mi,
 #por-que-trabajar,#blog,#Contacto{
-  padding: 90px 0;
+  padding: 20px 0;
 }
 #Servicios{
-  padding: 70px 0;
+  padding: 10px 0;
 }
-@media(max-width:800px)
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+.menu-icon {
+  display: block;
+float: right;
+width: 40px;
+height: 35px;
+margin-top: 15px;
+}
+header nav{
+  position: absolute;
+  top: 83px;
+  left: 0;
+  height: 268px;
+  background: #5cb8ff;
+  width: 100%;
+  display: none;
+}
+header nav ul{
+  flex-direction: column;
+}
+header nav ul li{
+  margin-bottom: 15px;
+
+}
+h1{
+  font-size: 44px;
+}
+h2{font-size: 19px;
+
+}
+h3{
+  font-size:
+}
+#sobre-mi .contenedor-sobremi{
+  flex-direction: column;
+}
+#sobre-mi img{
+  width: 100%;
+
+}
+#sobre-mi .texto{
+  width: 100%;
+}
+.contenedor-servicios{
+  flex-direction: column;
+}
+.servicio{
+  width:82%;
+  padding: 34px 30px 69px 30px ;
+}
+.icono1{
+  float: right;
+  margin-top: 23px;
+}
+h3{
+  font-size: 43px;
+}
+.contenedor-trabajar{
+
+  flex-direction: column;
+}
+#por-que-trabajar .item{
+  width: 100%;
+}
+.item ul {
+padding: 0;
+
+}
+#blog .contenedor-publicaciones{
+  flex-direction: column;
+}
+#blog .publicacion{
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+#contacto form{
+  width: 100%;
+  flex-direction: column;
+}
+input[type="text"],input[type="email"]{
+  width: 100%;
+}
+footer img{
+  margin: 0 24px;
+}
+
+}
+@media (min-width: 600px) and (max-width:800px) {
+ header {
+   height: 70vh;
+ }
+ .servicio {
+    width: 57%;
+    padding: 34px 30px 69px 30px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#blog .publicacion {
+    width: 71%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+}
